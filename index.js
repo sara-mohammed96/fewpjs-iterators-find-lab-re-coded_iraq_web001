@@ -4,6 +4,6 @@ function testFunc() {
   return "hi"
 }
 
-const superbowlWin(){
-  
+function superbowlWin(array){
+  let object=array.find(x=>x.result==='W')
 }
