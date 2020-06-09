@@ -6,6 +6,9 @@ function testFunc() {
 
 function superbowlWin(array){
   let object=array.find(x=>x.result==='W')
-  if(object=== undefined)
+  if(object=== undefined){
+    return object
+  }
+  else
   return object.year;
 }
